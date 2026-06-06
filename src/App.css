@@ -1,0 +1,80 @@
+/* App.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Button Styles - Standardizing */
+.btn {
+  border-radius: 8px !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(110%);
+}
+
+/* Table styling */
+.table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #0d6efd;
+  color: white;
+}
+/* For the entire container */* When the theme-dark class is applied, these styles will take effect */
+.theme-dark {
+  background-color: #1a1a1a !important;
+  color: white !important;
+  min-height: 100vh;
+}
+
+/* Table headers (Name, Email, Serial No.) */
+.theme-dark table thead tr th {
+  color: white !important;
+  background-color: #333 !important; 
+  /* Apply a different color to make the header stand out */
+}
+
+/* Table data fetched from the API */
+.theme-dark table tbody tr td, 
+.theme-dark table tbody tr th {
+  color: white !important;
+  background-color: #1a1a1a !important;
+}
+
+/* Input field labels */
+.theme-dark .form-label {
+  color: white !important;
+}
+
+/* Main page headings */
+.theme-dark h2 {
+  color: white !important;
+}
